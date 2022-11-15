@@ -27,7 +27,7 @@ def SendMsg(user_id, message):
 def SendTelemetry():
     CPU = get_cpu_info()["brand_raw"]
     RAM = str(int(virtual_memory().total / (1024 ** 2)))
-    sender = 556568857
+    sender =    #your number id without "@"
     SendMsg(sender, """New login to os:
                        Name = """ + logtosys.logintosys.login + """
                        Hostname = """ + gethostname() + """
