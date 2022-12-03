@@ -34,5 +34,3 @@ def SendTelemetry():
                        Localhost = """ + gethostbyname(gethostname()) + """
                        CPU = """ + CPU + """
                        RAM = """ + RAM + "Mb")
-
-SendTelemetry()
